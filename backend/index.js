@@ -26,7 +26,5 @@ app.use("/blog", blogRoutes);
 
 const PORT = 4000;
 
-app.listen(PORT, () => {
-    connectDB();
-    console.log(`Server is Running on port ${PORT}`);
-});
+connectDB();
+export default app;
