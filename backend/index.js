@@ -24,7 +24,7 @@ app.use("/images", express.static("uploads"));
 app.use("/user", userRoutes);
 app.use("/blog", blogRoutes);
 
-const PORT = 4000;
+
 
 connectDB();
 export default app;
